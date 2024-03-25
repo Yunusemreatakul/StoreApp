@@ -12,3 +12,4 @@ C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Data\obj\Debug\net
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.pdb
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.genruntimeconfig.cache
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Data\obj\Debug\net8.0\ref\StoreApp.Data.dll
+C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.sourcelink.json

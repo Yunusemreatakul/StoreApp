@@ -19,6 +19,11 @@ namespace StoreApp.Web.TagHelpers
         public ViewContext? ViewContext {get; set;}
         public PageInfo? PageModel {get; set;} 
         public string? PageAction { get; set; }
+        public string PageClass { get; set; }= string.Empty;
+        public string PageClassLink { get; set; }=string.Empty;
+
+        public string PageClassActive { get; set; }=string.Empty;
+
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
             if(ViewContext != null && PageModel != null)
@@ -30,6 +35,8 @@ namespace StoreApp.Web.TagHelpers
                     TagBuilder link = new TagBuilder("a");
                     link.Attributes["href"] = urlHelper.Action(PageAction,new {page = i});
                     link.InnerHtml.Append(i.ToString());
+                    link.AddCssClass(PageClass);
+                    link.AddCssClass(i == PageModel.CurrentPage ? PageClassActive : PageClassLink);
                     div.InnerHtml.AppendHtml(link);
                 }
                 output.Content.AppendHtml(div.InnerHtml);

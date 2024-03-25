@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj": {}
+    "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj": {
+    "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
         "projectName": "StoreApp.Data",
-        "projectPath": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
+        "projectPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
         "packagesPath": "C:\\Users\\ataku\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj": {
+    "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
         "projectName": "StoreApp.Web",
-        "projectPath": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
+        "projectPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
         "packagesPath": "C:\\Users\\ataku\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\obj\\",
+        "outputPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj": {
-                "projectPath": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj"
+              "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj": {
+                "projectPath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj"
               }
             }
           }

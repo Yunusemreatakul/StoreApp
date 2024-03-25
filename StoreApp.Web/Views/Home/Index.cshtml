@@ -1,17 +1,28 @@
 @model ProductViewListModel
-<p>Index Page</p>
 
-@if(Model.products.Count()==0)
+
+<div class="row">
+<div class="col-md-3">
+    Kategoriler
+</div>
+<div class="col-md-9"> 
+    @if(Model.products.Count()==0)
 {
     <p>Ürün bulunamadı</p>
 }
 
 @foreach(var p in Model.products)
 {
-    <div>
-        <h4>@p.Name</h4>
-        <p>@p.Description</p>
-        <p>@p.Price</p>
+    <div class="card card-outline-secondary p-2 mb-2">
+        <div class="d-flex justify-content-between">
+            <div class="">
+                <h4>@p.Name</h4>
+                <p>@p.Description</p>
+            </div>
+            <div>
+                 <span class="badge rounded-pill text-bg-success">@p.Price TL</span>
+            </div>
+        </div>
     </div>
 }
 
@@ -21,4 +32,13 @@
     
 
 }*@
-<div page-model="@Model.PageInfo" page-action="Index"></div>
+<div 
+    page-model="@Model.PageInfo"
+    page-action="Index"
+    page-class = "btn"
+    page-class-link="btn-outline-secondary"
+    page-class-active= "btn-secondary"
+    class="btn-group m-1"
+     ></div>
+
+

@@ -124,3 +124,6 @@ C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\StoreApp.Data.dll
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\StoreApp.Data.pdb
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\obj\Debug\net8.0\StoreApp.Web.csproj.CopyComplete
+C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\libman.json
+C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\StoreApp.Web.staticwebassets.runtime.json
+C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\obj\Debug\net8.0\StoreApp.Web.sourcelink.json

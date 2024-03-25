@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/32l2rWVXv6AJFIWkr3pLaMAv8qSHmqx22m8DDJq+2gJavSQoVAGi+8CgKDD1PIA9aiW5H48DkgwDji10AC4g==",
+  "dgSpecHash": "D6jgpplqzmdo1jkG/ZRg0tflSZO0vv+RMdVkBagwqL41/AIm2ryTlXyWOnKyf+N7yE0dKHHWZ/YrW19RidQGMg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
+  "projectFilePath": "C:\\Users\\ataku\\OneDrive\\Masaüstü\\aspUdemy\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ataku\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ataku\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
