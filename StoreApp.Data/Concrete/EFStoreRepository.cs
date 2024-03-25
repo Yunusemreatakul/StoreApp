@@ -11,6 +11,8 @@ namespace StoreApp.Data.Concrete
         }
         public IQueryable<Product> Products => _context.products;
 
+        public IQueryable<Category> Categories => _context.Categories;
+
         public void CreateProduct(Product entity)
         {
             throw new NotImplementedException();

@@ -1,0 +1,14 @@
+@model IEnumerable<CategoryViewModel>
+
+<div class="d-grid gap-2">
+    <a class="btn btn-outline-secondary" asp-controller="Home" asp-action="Index">Anasayfa</a>
+    
+    
+        @foreach(var i in Model)
+        {
+            <div class="d-flex justify-content-center">
+            <a class="btn btn-outline-secondary w-75" asp-controller="Home" asp-action="Index">@i.Name</a>
+            </div>
+        }
+    
+</div>
