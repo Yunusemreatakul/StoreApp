@@ -1,5 +1,7 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using StoreApp.Data.Abstract;
 using StoreApp.Web.Models;
 
@@ -9,29 +11,24 @@ namespace StoreApp.Web.Controllers
     {
         public int PageSize = 3; 
 
-        private IStoreRepository _storeRepository;
-        public HomeController(IStoreRepository storeRepository)
+        private readonly IStoreRepository _storeRepository;
+        private readonly IMapper _Imapper;
+        public HomeController(IStoreRepository storeRepository,IMapper Imapper)
         {
             _storeRepository=storeRepository;
+            _Imapper=Imapper;
         }
-        public IActionResult Index(int Page = 1)
-        {
-            var product = _storeRepository
-                .Products
-                .Skip((Page-1)*PageSize)
-                .Select(p=> new ProductViewModel {
-                Id = p.Id,
-                Name = p.Name,
-                Description = p.Description,
-                Price = p.Price,
-                
-            }).Take(PageSize);
+        public IActionResult Index(string? category,int Page = 1)
+        {   
+           
+            var product = _storeRepository.GetProductByCategory(category,Page,PageSize)
+                .Select(p=> _Imapper.Map<ProductViewModel>(p)).Take(PageSize);
             return View(new ProductViewListModel {
                 products = product,
                 PageInfo = new PageInfo {
-                    TotalItems = _storeRepository.Products.Count(),
                     ItemsInPage = PageSize,
-                    CurrentPage = Page
+                    CurrentPage = Page,
+                     TotalItems = _storeRepository.GetProductCount(category),
                 }
             }
              );

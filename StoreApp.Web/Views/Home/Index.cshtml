@@ -32,6 +32,11 @@
     
 
 }*@
+
+@if(Model.PageInfo.TotalPage >= 2)
+{
+
+
 <div 
     page-model="@Model.PageInfo"
     page-action="Index"
@@ -42,3 +47,4 @@
      ></div>
 
 
+}

@@ -127,3 +127,5 @@ C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\obj\Debug\net8
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\libman.json
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\StoreApp.Web.staticwebassets.runtime.json
 C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\obj\Debug\net8.0\StoreApp.Web.sourcelink.json
+C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\ataku\OneDrive\Masaüstü\aspUdemy\StoreApp\StoreApp.Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

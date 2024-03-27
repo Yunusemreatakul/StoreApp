@@ -14,11 +14,12 @@ namespace StoreApp.Web.Components
         }
         public IViewComponentResult Invoke()
         {
+            ViewBag.SelectedCategory = RouteData?.Values["category"];
             return View(_IStoreRepository.Categories.Select(c => new CategoryViewModel{
                 Id= c.Id,
                 Name = c.Name,
                 Url = c.Url
-            }));
+            }).ToList());
         }
     }
 }
